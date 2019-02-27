@@ -22,11 +22,11 @@ In this 1 day Hackfest, you will be able to deploy a fully working .NET MVC web 
 
 ![alt text](https://github.com/kincho-guerrero/hack-appinsights/blob/master/Images/app-insights-hack-2.png "Azure Free Subscription")
 
-### Seting up your E-Shop Solution
+## Seting up your E-Shop Solution
 
 For this hack we will be using an existing pre-built app to ensure we focus in the app monitoring and telemetry rather than coding the whole app. The app will provide us with a fully functional ficticious environment to analyze and gather telemetry and insights. For this you will be needing to configure additional services in Azure, those services are detailed in the following steps:
 
-#### 1. Setting up you storage account for the assets
+## 1. Setting up you storage account for the assets
 
 1. Login to your Azure account through the portal or through CLI
 
