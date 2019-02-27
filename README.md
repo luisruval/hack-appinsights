@@ -70,3 +70,29 @@ az sql db show-connection-string -s myserver -n mydb -c ado.net
 az sql server firewall create  -s ppinsightshackserver --name appinsightshackdb
 ```
 
+9. Clone the solution locally form this git repo located at 
+
+9. Replace the connection string for the Local DB in the solution file located 
+
+
+## Configuration and Setup of Application Insights for .NET Applications
+
+
+
+## Getting session and user telemetry
+
+
+
+## Custom Telemetry Logging
+
+
+
+## Querying raw data and custom queries from App Insights data
+
+
+
+## Using PowerBI to generate custom dashboards
+
+
+
+## Using Snapshot debugging and Visual Studio tooling for App Insights
