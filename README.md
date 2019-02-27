@@ -16,7 +16,11 @@ In this 1 day Hackfest, you will be able to deploy a fully working .NET MVC web 
 
 2. Make sure that during the VS Studio Enterprise installation you check the Web Development tools and the Azure Development tools options. This will install all the required SDKs and tools we will be using during this hackfest.
 
+![alt text](https://github.com/kincho-guerrero/hack-appinsights/blob/master/Images/app-insights-hack-1.png "SDKS and Tooling")
+
 3. To use Application Insights you will be needing an Azure Subscription. In case you don't have one, you can activate your free Azure Trial for 30 days or 200$ USD https://azure.microsoft.com/en-us/free/
+
+![alt text](https://github.com/kincho-guerrero/hack-appinsights/blob/master/Images/app-insights-hack-2.png "Azure Free Subscription")
 
 ### Seting up your E-Shop Solution
 
@@ -65,3 +69,4 @@ az sql server firewall create --resource-group appinsights-hack -s ppinsightshac
 az sql db show-connection-string -s myserver -n mydb -c ado.net
 az sql server firewall create  -s ppinsightshackserver --name appinsightshackdb
 ```
+
