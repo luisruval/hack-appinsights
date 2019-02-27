@@ -58,5 +58,10 @@ az sql db create --name appinsightshackdb --resource-group appinsights-hack -s p
 az sql server firewall create --resource-group appinsights-hack -s ppinsightshackserver --name myfirewallrule --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
 ```
 
-8. 
+8. Obtain the SQL DB connection string to replace it in the solution file named AppSettings.json.
 
+
+```shell
+az sql db show-connection-string -s myserver -n mydb -c ado.net
+az sql server firewall create  -s ppinsightshackserver --name appinsightshackdb
+```
