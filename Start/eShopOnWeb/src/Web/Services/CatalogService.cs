@@ -52,13 +52,14 @@ namespace Microsoft.eShopWeb.Web.Services
             var totalItems = _itemRepository.Count(filterSpecification);
 
             // Initial implementation
-            /*itemsOnPage.ForEach(x =>
+            itemsOnPage.ForEach(x =>
             {
                 x.PictureUri = _uriComposer.ComposePicUri(x.PictureUri);
-            });*/
+            });
             
 
             // Adding a reference to use an Azure Storage Blob
+            /*
             itemsOnPage.ForEach(x =>
             {
                 StorageCredentials credentials = new WindowsAzure.Storage.Auth.StorageCredentials("{YOUR_STORAGE_ACCOUNT_NAME}", "{YOUR_STORAGE_PRIMARY_KEY}");
@@ -68,6 +69,7 @@ namespace Microsoft.eShopWeb.Web.Services
                 var blob = blockblob.OpenReadAsync();
                 x.PictureUri = _uriComposer.ComposePicUri(blockblob.Uri.ToString());
             });
+            */
 
             var vm = new CatalogIndexViewModel()
             {
