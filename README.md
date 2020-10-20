@@ -203,10 +203,3 @@ for ($i = 0 ; $i -lt 250; $i++)
 1. Execute the PowerShell script and go to Live Metrics.
 
 2. We are going to cause some execptions by logging into SQL Server Managment Studio and changing the names of the tables, see what is being reported on Live Metrics and on the Analytics section of your Application Insights.
-
-  
-## Using PowerBI to generate custom dashboards
-
-
-
-## Using Snapshot debugging and Visual Studio tooling for App Insights
