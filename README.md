@@ -48,7 +48,7 @@ az storage account create --name appinsights{alias} --resource-group appinsights
 5. For storing the application data we will be using an Azure SQL DB. First you will need to create a SQL DB Server. Remember to choose an unique server name  for your instance as they are reserved names (use your alias)
 
 ```shell
-az sql server create --name appinsights{alias} --resource-group appinsights-hack -l southcentralus -u mydbadmin -p Hackfest2019!
+az sql server create --name appinsights{alias} --resource-group appinsights-hack -l southcentralus -u mydbadmin -p Hackfest2020!
 ```
 
 6. Then you will need to create the Database.
